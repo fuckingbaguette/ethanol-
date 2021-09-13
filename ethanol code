@@ -1,0 +1,6 @@
+j=int(input("stock jet size"))
+e=int(input("pourcentage of ethanol"))
+p=j*0.3*e/100
+print(p+j)
+if p==0:
+  print(j)
